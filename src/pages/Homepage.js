@@ -35,30 +35,31 @@ const Wrapper = styled.div`
 const Homepage = () =>{
     return(
         <React.Fragment>
+            
             <GlobalStyles />
             <NavBar />
             <Wrapper>
                     <LeftDiv >
                         <h1>Dawson Dease</h1>
-                        <h1>Junior Software Developer</h1>
+                        <h1>Software Developer</h1>
                     </LeftDiv>
             </Wrapper>
             <CenterContainer>
-                <p>Dawson, a recent graduate of the Computer Systems Program at Camosun College, is a hardworking individual with a strong passion to learn new skills pertaining to the tech industry. Since he was little, Dawson has had a powerful connection with the industry, constantly fuelling his passion by dedicating time to learning the necessary skills to gain the competitive advantage over his peers and coworkers. His never ending drive and easy-going, but driven personality make him the perfect candidate for a career in this field. Interested in learning more about careers and opportunities in this field, you can reach Dawson by connecting with him and sending him a message via LinkedIn messaging! </p>
-                <h1>Projects</h1>
+                <p id="about">Dawson, a recent graduate of the Computer Systems Program at Camosun College, is a hardworking individual with a strong passion to learn new skills pertaining to the tech industry. Since he was little, Dawson has had a powerful connection with the industry, constantly fuelling his passion by dedicating time to learning the necessary skills to gain the competitive advantage over his peers and coworkers. His never ending drive and easy-going, but driven personality make him the perfect candidate for a career in this field. Interested in learning more about careers and opportunities in this field, you can reach Dawson by connecting with him and sending him a message via LinkedIn messaging! </p>
+                <h1 id="projects" >Projects</h1>
                 <hr />
                 <br />
                 <Grid container alignItems='center' direction='row' 
                         spacing={4}>
                     <Projects />
                 </Grid>
-                <h1>Technologies</h1>
+                <h1 id="tech" >Technologies</h1>
                 <hr />
                 <Grid container direction='row' justify="center"
                         >
                 <Technologies />
                 </Grid>
-                <h1>Contact</h1>
+                <h1 id="contact" >Contact</h1>
                 <hr />
                 <Contact />
             </CenterContainer>

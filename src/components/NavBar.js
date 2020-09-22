@@ -37,26 +37,25 @@ const NavBar = () =>{
                         <Button classes={{
                             root: classes.root, 
                             label: classes.label, 
-                        }}>About Me</Button>
+                        }} href="#about">About Me</Button>
                     </Grid>
                     <Grid >
                         <Button classes={{
                             root: classes.root, 
                             label: classes.label, 
-                        }}>Projects</Button>
+                        }} href="#projects">Projects</Button>
                     </Grid>
                     <Grid >
                         <Button classes={{
                             root: classes.root, 
                             label: classes.label, 
-                        }}>Technologies</Button>
+                        }}href="#tech">Technologies</Button>
                     </Grid>
-                    
                     <Grid >
                         <Button classes={{
                             root: classes.root, 
                             label: classes.label, 
-                        }}>Contact</Button>
+                        }}href="#contact">Contact</Button>
                     </Grid>
                     
                 </StyledGrid>

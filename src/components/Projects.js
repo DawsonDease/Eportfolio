@@ -9,8 +9,8 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 
 
 let projects = [
-    {name:"IndyKey", photo:"IndyKey", link:""},
-    {name:"Capstone website", photo:"Capstone", link:"/capstone"},
+    {name:"IndyKey", photo:"IndyKey", link:"http://app.indykey.com/"},
+    {name:"Capstone website", photo:"Capstone", link:"http://capstone.camosun.ca/archived-capstone/June2020/public/ICS.php"},
 ]
 const Projects = () =>{
     return(
